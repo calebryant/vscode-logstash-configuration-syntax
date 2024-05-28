@@ -25,9 +25,7 @@
             "id": "logstash",
             "aliases": ["Logstash", "logstash"],
             "filenamePatterns": [
-                "*logstash.conf",
-                "*logstash.conf.j2",
-                "*logstash.conf.template"
+                "*parser.conf"
             ],
             "configuration": "./logstash.configuration.json"
         }],
